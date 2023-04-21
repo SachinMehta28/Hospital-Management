@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #005bab;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Banner */
+  #banner {
+    background-image: url(hospital.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner-content {
+    background-color: None;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .banner-content h2 {
+    color:rgb(10, 10, 10);
+    margin-top: 0;
+  }
+  
+  .banner-content p {
+    color: rgb(10, 10, 10);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 6000px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #005bab;
+    color: #fff;
+  }
+  
+  /* Features */
+  #features {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #features h2 {
+    margin-top: 0;
+  }
+  
+  #features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #features li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    margin-top: 0;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial cite {
+    font-weight: bold;
+  }
+  
+  /* Contact */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #message {
+    padding: 10px;
+    margin-left: 5.5%;
+  }
+  
