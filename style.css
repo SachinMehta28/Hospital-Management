@@ -22,6 +22,8 @@
   
   header h1 {
     margin: 0;
+    margin-left: 32%;
+    font-size: 3.2rem;
   }
   
   nav {
@@ -53,21 +55,21 @@
     background-image: url(hospital.jpg);
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 750px;
     padding: 100px 0;
     text-align: center;
   }
   
   .banner-content {
     background-color: None;
-    padding: 20px;
-    max-width: 600px;
+    padding: 10px;
+    max-width: 400px;
     margin: 0 auto;
   }
   
   .banner-content h2 {
     color:rgb(10, 10, 10);
-    margin-top: 0;
+    margin-top: 2;
   }
   
   .banner-content p {
@@ -175,6 +177,41 @@
 
   #message {
     padding: 10px;
-    margin-left: 5.6%;
+    margin-left: 0%;
+  }
+
+  form #Send{
+    display: flex;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 47%;
   }
   
+  /* Add styles for social media */
+
+  .social {
+    background-color: #007bff;
+    padding: 20px 0;
+    }
+    
+  .social .container {
+  text-align: center;
+  }
+    
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+  .social-links li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  }
+    
+  .social-links img{
+  display: inline;
+  max-width: 30%;
+  }
